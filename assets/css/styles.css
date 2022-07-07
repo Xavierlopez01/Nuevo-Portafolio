@@ -388,9 +388,17 @@ footer a {
     font-size: 26px;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width:800px){
-    .redes{
+@media screen and (min-width:801px){
+    #icon-barra {
         display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .redes1{
+        display: none;
+    }
+    #icon-barra {
+        color: #fff;
     }
     nav {
         display: none;
