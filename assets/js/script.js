@@ -21,7 +21,7 @@ form1.addEventListener('submit', function(e){
     asunto: input.asunto.value,
     message: input.message.value
    }
-   window.fetch("URL_BASE", {
+   window.fetch(URL_BASE, {
     method: "POST",
     headers: { 
         'Content-Type': 'application/json',
