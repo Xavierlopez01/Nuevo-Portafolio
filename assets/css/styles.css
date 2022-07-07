@@ -165,6 +165,12 @@ text-align: center;
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
+#aboutMe .aboutMe .text1 {
+    text-align: center;
+}
+#aboutMe .aboutMe .text2 {
+    text-align: end;
+}
 #aboutMe .aboutMe p {
     font-size: 14px;
     line-height: 25px;
@@ -200,13 +206,15 @@ text-align: center;
     text-decoration-thickness: 5px;
 }
 #services .fila {
+
     display: flex;
-    justify-content: space-between;
-    max-width: 1100px;
+    justify-content: center;
+    max-width: 1000px;
     margin: 30px auto;
 }
 #services .fila .services {
-    max-width: 350px;
+    /* max-width: 350px; */
+    width: 33%;
     background-color: #fff;
     padding: 30px;
     margin: 0 5px;
@@ -322,6 +330,20 @@ text-align: center;
 #portfolio .fila .proyecto:hover .info {
     opacity: 1;
     bottom: 0;
+}
+#portfolio .boton {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    margin-top: 3px;
+    transition: .5s;
+}
+#portfolio .boton:hover {
+    background-color: #ff5080;
+    color: #fff;
 }
 /* SECCION CONTACTO */
 #contac {
@@ -450,6 +472,7 @@ footer a {
         display: block;
     }
     #services .fila .services {
+        width: 80%;
         margin: 10px auto;
     }
     .contenerdor-skills {
