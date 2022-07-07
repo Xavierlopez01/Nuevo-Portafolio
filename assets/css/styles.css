@@ -288,6 +288,7 @@ text-align: center;
 }
 #portfolio .titulo-seccion {
     text-align: center;
+    border-radius: 5px;
     font-size: 22px;
     text-transform: uppercase;
     color: #111135;
