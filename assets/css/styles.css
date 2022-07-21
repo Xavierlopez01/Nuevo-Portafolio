@@ -67,6 +67,9 @@ html {
 #inicio .contenido header .contenido-header .redes a:hover {
     color: #ff5080;
 }
+#inicio .contenido header .contenido-header .redes a:active {
+    color: red;
+}
 #inicio .contenido header .contenido-header .seleccionado {
     color: #ff5080;
 }
@@ -408,6 +411,12 @@ footer a {
     display: inline-block;
     margin: 5px;
     font-size: 26px;
+}
+#footer .redes a:hover {
+    color: #ff5080;
+}
+#footer .redes a:active {
+    color: red;
 }
 /* SECCION RESPONSIVE */
 @media screen and (min-width:801px){
