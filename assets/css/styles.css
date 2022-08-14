@@ -216,7 +216,6 @@ text-align: center;
     margin: 30px auto;
 }
 #services .fila .services {
-    /* max-width: 350px; */
     width: 33%;
     background-color: #fff;
     padding: 30px;
@@ -297,7 +296,12 @@ text-align: center;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
-}#portfolio .fila {
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#portfolio .fila {
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
@@ -337,7 +341,6 @@ text-align: center;
 }
 #portfolio .boton {
     display: inline-block;
-    text-decoration: none;
     color: #000;
     border-radius: 30px;
     padding: 10px 20px;
@@ -348,6 +351,10 @@ text-align: center;
 #portfolio .boton:hover {
     background-color: #ff5080;
     color: #fff;
+}
+.boton-link {
+    text-decoration: none;
+    font-size: 1.5em;
 }
 /* SECCION CONTACTO */
 #contac {
